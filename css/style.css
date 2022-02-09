@@ -1,0 +1,145 @@
+/*------- Font Family Starts -------*/
+
+@font-face { font-family: "Ubuntu-Light"; src: url("../fonts/Ubuntu-Light.ttf"); }
+@font-face { font-family: "Ubuntu-Regular"; src: url("../fonts/Ubuntu-Regular.ttf"); }
+@font-face { font-family: "Ubuntu-Medium"; src: url("../fonts/Ubuntu-Medium.ttf"); }
+@font-face { font-family: "Ubuntu-Bold"; src: url("../fonts/Ubuntu-Bold.ttf"); }
+
+/*------- Font Family Ends -------*/
+
+/*------- Reset CSS Starts -------*/
+
+html { letter-spacing: 1px; -webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none; }
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+address { margin: 0; padding: 0; }
+li { list-style: none; }
+a,
+a:hover,
+a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz-transition: 0.5s ease; -ms-transition: 0.5s ease; -o-transition: 0.5s ease; transition: 0.5s ease; }
+
+/*------- Reset CSS Ends -------*/
+
+/*------- Common CSS Starts -------*/
+
+.btn:focus,
+.btn:active:focus {
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	outline: 0;
+}
+
+/*------- Common CSS Ends -------*/
+
+/*------- Book Table Page Starts -------*/
+
+	/*------- Book Table Section Starts -------*/
+
+.bg-banner-admin {
+	padding: 0;
+}
+.bg-banner-ba-fw {
+	background: url("../images/banner-1.jpg") no-repeat top/cover;
+	height: 100vh;
+	position: relative;
+	z-index: 10;
+}
+.box-banner-ba {
+	background-color: rgb(93 37 14 / 80%);
+	-webkit-border-radius: 24px;
+	-moz-border-radius: 24px;
+	-ms-border-radius: 24px;
+	-o-border-radius: 24px;
+	border-radius: 24px;
+	left: 50%;
+	padding: 30px;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+	width: 50%;
+	z-index: 11;
+}
+.logo-ba { margin-bottom: 15px; }
+.logo-ba > a { display: inline-block; }
+.logo-ba > a > img { width: 200px; }
+.form-group-ba > label {
+	color: #f7f7f7;
+	font: 1.8rem/1.4 "Ubuntu-Regular";
+	margin-bottom: 10px;
+}
+.form-control-ba {
+	background-color: transparent;
+	border: 1px solid #f7f7f7;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
+	border-radius: 7px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+	color: #f7f7f7;
+	font-family: "Ubuntu-Light";
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.form-control-ba:focus {
+	border-color: #f7f7f7;
+	-webkit-border-radius: 14px;
+	-moz-border-radius: 14px;
+	-ms-border-radius: 14px;
+	-o-border-radius: 14px;
+	border-radius: 14px;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+textarea.form-control-ba {
+	height: 100px;
+	resize: none;
+}
+.btn-ba {
+	background-color: #300f00;
+	border: 0;
+	color: #f7f7f7;
+	font-family: "Ubuntu-Regular";
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	-webkit-transition: 0.5s ease;
+	-moz-transition: 0.5s ease;
+	-ms-transition: 0.5s ease;
+	-o-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+.btn-ba:hover {
+	background-color: #f7f7f7;
+	color: #300f00;
+}
+.btn-ba:focus {
+	background-color: #300f00;
+	color: #f7f7f7;
+}
+
+	/*------- Book Table Section Ends -------*/
+
+/*------- Book Table Page Ends -------*/
