@@ -54,12 +54,17 @@ a:focus { outline: 0; text-decoration: none; -webkit-transition: 0.5s ease; -moz
 	z-index: 10;
 }
 .box-banner-ba {
-	background-color: rgb(93 37 14 / 80%);
+	background-color: hsl(336deg 83% 41% / 70%);
 	-webkit-border-radius: 24px;
 	-moz-border-radius: 24px;
 	-ms-border-radius: 24px;
 	-o-border-radius: 24px;
 	border-radius: 24px;
+	-webkit-box-shadow: 8px 8px 30px 0 rgb(80 2 35 / 70%);
+	-moz-box-shadow: 8px 8px 30px 0 rgb(80 2 35 / 70%);
+	-ms-box-shadow: 8px 8px 30px 0 rgb(80 2 35 / 70%);
+	-o-box-shadow: 8px 8px 30px 0 rgb(80 2 35 / 70%);
+	box-shadow: 8px 8px 30px 0 rgb(80 2 35 / 70%);
 	left: 50%;
 	padding: 30px;
 	position: absolute;
@@ -122,7 +127,7 @@ textarea.form-control-ba {
 	color: #272727;
 }
 .btn-ba {
-	background-color: #300f00;
+	background-color: #910041;
 	border: 0;
 	color: #f7f7f7;
 	font-family: "Ubuntu-Regular";
@@ -139,7 +144,7 @@ textarea.form-control-ba {
 	color: #300f00;
 }
 .btn-ba:focus {
-	background-color: #300f00;
+	background-color: #910041;
 	color: #f7f7f7;
 }
 
