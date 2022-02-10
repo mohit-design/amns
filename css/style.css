@@ -118,6 +118,9 @@ textarea.form-control-ba {
 	height: 100px;
 	resize: none;
 }
+.form-control-ba option {
+	color: #272727;
+}
 .btn-ba {
 	background-color: #300f00;
 	border: 0;
